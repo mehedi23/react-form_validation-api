@@ -1,0 +1,51 @@
+.active-nav{
+    color: red !important;
+    border-bottom: 4px solid red;
+    border-radius: 4px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 25px;
+    font-weight: bolder;
+    color: black;
+}
+
+.contact-form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inputs{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputs input{
+    padding: 10px;
+    width: 60%;
+    outline: none !important;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+.error::placeholder{
+    color: red;
+}
