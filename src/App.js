@@ -13,9 +13,9 @@ function App() {
       <Menu />
 
       <Sw>
-        <Route exact path='/react-router' component={About} />
-        <Route exact path='/react-router/contact' component={Contact} />
-        <Route exact path='/react-router/api' component={Api} />
+        <Route exact path='/react-form_validation-api' component={About} />
+        <Route exact path='/react-form_validation-api/contact' component={Contact} />
+        <Route exact path='/react-form_validation-api/api' component={Api} />
         <Route component={Error} />
       </Sw>
     </div>
